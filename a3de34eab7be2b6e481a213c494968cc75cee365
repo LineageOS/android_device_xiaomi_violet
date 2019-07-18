@@ -22,6 +22,30 @@
       "revId": "a3de34eab7be2b6e481a213c494968cc75cee365",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c799b2b0_2121b2fc",
+        "filename": "sepolicy/vendor/hal_power_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 19975
+      },
+      "writtenOn": "2019-07-18T08:41:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "81a329cb_b20255f4",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 60
+      },
+      "revId": "a3de34eab7be2b6e481a213c494968cc75cee365",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
