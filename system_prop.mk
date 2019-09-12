@@ -14,6 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
    vendor.camera.aux.packagelist="org.codeaurora.snapcam,com.android.camera"
+   vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,org.thoughtcrime.securesms,com.instagram.android,com.google.android.apps.tachyon
 
 # CNE and DPM
 PRODUCT_PROPERTY_OVERRIDES += \
