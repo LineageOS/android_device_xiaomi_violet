@@ -254,12 +254,9 @@ vendor/firmware/a612_zap.b01
 vendor/firmware/a612_zap.b02
 vendor/firmware/a612_zap.elf
 vendor/firmware/a612_zap.mdt
-vendor/firmware/a615_zap.b00
-vendor/firmware/a615_zap.b01
-vendor/firmware/a615_zap.b02
-vendor/firmware/a615_zap.elf
-vendor/firmware/a615_zap.mdt
-vendor/firmware/a630_sqe.fw
+
+# GPU Firmware - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
+vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 
 # IPA Firmware
 vendor/firmware/ipa_fws.b00
