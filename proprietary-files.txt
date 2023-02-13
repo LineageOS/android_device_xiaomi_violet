@@ -948,7 +948,6 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so|6befbe5244546687162a320a86787c6
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|662bccc5d4b40a79a47928c8957bfdff9f013e66
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|bdb530a365806b33effe0fea03f181decb20c2ae
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
-system_ext/priv-app/ims/ims.apk|9c265c8a1f34d96557e1376b1fe91a916767f311
 vendor/bin/ims_rtp_daemon|c5c4ead4ef77b0b8e34f27015c3ee10381bb6996
 vendor/bin/imsdatadaemon|512ed8dca5773735fb0ae782b579bb3d7519db40
 vendor/bin/imsqmidaemon|bd169127f1ce80ddccfc90710be975db85c3a06e
@@ -997,6 +996,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|bd0db76d555c51971dcfcce62d981f987af
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|f52f0cd5e19455eba97dea61542217d4aa5c1841
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|beeb9324900da6582f92ffab225cc0d314bf71bd
+
+# Radio IMS - Patched to remove com.qti.permission.BIND_QTI_IMS_SERVICE and Landroid/telephony/TelephonyBaseUtilsStub;->isMiuiRom()
+system_ext/priv-app/ims/ims.apk|6a383ab360468c2b040c4ce618ac5188ab4fc655
 
 # Snapdragon Computer Vision Engine - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
 vendor/lib64/libfastcvdsp_stub.so|af78b8104678b87fbe07d679448ae2f4bc5c461e
