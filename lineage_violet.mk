@@ -8,7 +8,7 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common SuperiorOS stuff.
+# Inherit some common crDroid stuff.
 $(call inherit-product, vendor/crdroid/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
