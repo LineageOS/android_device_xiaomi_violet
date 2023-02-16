@@ -1,20 +1,16 @@
 [
   {
-    "repository" : "vendor_xiaomi_violet",
-    "target_path": "vendor/xiaomi/violet",
-    "branch": "thirteen",
-    "remote": "SuperiorOS-Devices"
+    "repository" : "crdroidandroid/android_vendor_xiaomi_violet",
+    "target_path": "vendor/xiaomi/violet"
   },
   {
-    "repository": "kernel_xiaomi_violet",
+    "repository": "crdroidandroid/android_kernel_xiaomi_violet",
     "target_path": "kernel/xiaomi/violet",
-    "branch":"thirteen",
-    "remote":"SuperiorOS-Devices"
+    "branch":"13.0-azure"
   },
   {
-    "repository": "vendor_xiaomi-firmware_violet",
-    "target_path": "vendor/xiaomi-firmware/violet",
-    "branch":"thirteen",
-    "remote":"superior-gitlab"
+    "repository": "crdroidandroid/android_vendor_xiaomi-firmware",
+    "target_path": "vendor/xiaomi-firmware",
+    "remote":"crdroid-gitlab"
   }
 ]
