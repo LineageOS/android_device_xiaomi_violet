@@ -429,13 +429,15 @@ vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
 vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
 vendor/lib64/libhdr_tm.so|b4d129efafedbc82e122ef7edff26ca65204b630
 vendor/lib64/libqseed3.so|7f2a659fb9acd84d79c11dbd6901b816d5d1214f
-vendor/lib64/libsdedrm.so|791c1ef98218b767f4c0c7fbb3ba53d7b04c0812
 vendor/lib64/libsdm-color.so|2595b34578b078e0595ce555f714a74d676ef501
 vendor/lib64/libsdm-colormgr-algo.so|073245d67ec606f7b73c34e2b4956ebcc81b350c
 vendor/lib64/libsdm-diag.so|ace628f2178ab6768f7318f36a9641ecaeb7b841
 vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
 vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
+
+# Display - from NX627J 20201029.204053
+vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
 # Dirac - from Xiaomi
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
