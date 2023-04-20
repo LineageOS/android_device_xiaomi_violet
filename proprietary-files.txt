@@ -868,7 +868,6 @@ vendor/lib64/libqcrilFramework.so|dc62bd4f3685c420d43f4f5f4141d5908212df86
 vendor/lib64/libqcrildatactl.so|6b8f581a702bf25799232c3a5def95c5b6d6e8fd
 vendor/lib64/libqrtr.so|b22ee7df87b35ba88b518f0b821cc601cd612183
 vendor/lib64/libqsocket.so|3fa01c9aff6ed96a5ea9886c7696a046c929e339
-vendor/lib64/libril-qc-hal-qmi.so|6787f088078048c88be8ff0bcb2532af85e1189f
 vendor/lib64/libril-qc-logger.so|424da55c374153c34283562da0339d47b6e631f8
 vendor/lib64/libril-qc-ltedirectdisc.so|b5c0c056a7ae0b2e745f937c8c351a346f4d13b2
 vendor/lib64/libril-qc-radioconfig.so|1c55b37aa7b86d11bd43e91f4dddf00d7bd64095
@@ -915,6 +914,9 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb489
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|a0603a5c46e8e67f78bdb42f2b246ecc6a37cecd
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190995eda651e5c45e11c9b111a478
+
+# Radio - from Redmi Note 10 V14.0.2.0.SKGMIXM
+vendor/lib64/libril-qc-hal-qmi.so|31380a6e821c840a385be40b6029f290030b2c13
 
 # Radio IMS - from Redmi Note 10 Pro V14.0.1.0.TKFMIXM
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
