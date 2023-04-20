@@ -136,6 +136,9 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
+# Gatekeeper
+vendor.gatekeeper.disable_spu = true
+
 # Graphics
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
