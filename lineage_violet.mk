@@ -24,4 +24,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="violet-user 10 QKQ1.190915.002 V12.5.1.0.QFHCNXM release-keys" \
     PRODUCT_NAME="violet"
 
+BUILD_FINGERPRINT := xiaomi/violet-user/violet:10/QKQ1.190915.002/V12.5.1.0.QFHCNXM:user/release-keys
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
