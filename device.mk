@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libc29.vendor
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     libhidlbase-v32.vendor
@@ -71,6 +75,9 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
+
+# Partitions
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_COPY_FILES += \
