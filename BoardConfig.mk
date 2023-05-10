@@ -48,9 +48,6 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-
 # Security
 VENDOR_SECURITY_PATCH := 2021-08-01
 
