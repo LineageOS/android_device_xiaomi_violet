@@ -1,6 +1,6 @@
 [
   {
-    "repository": "lineageos/android_kernel_xiaomi_violet",
+    "repository": "android_kernel_xiaomi_violet",
     "target_path": "kernel/xiaomi/violet"
   }
 ]
