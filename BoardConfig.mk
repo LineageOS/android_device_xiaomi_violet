@@ -9,6 +9,9 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/violet
 
+# Inherit from sm6150-common
+-include device/xiaomi/sm6150-common/BoardConfigCommon.mk
+
 # Build
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
