@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_xiaomi_violet",
-    "target_path": "kernel/xiaomi/violet"
+    "repository": "android_device_xiaomi_sm6150-common",
+    "target_path": "device/xiaomi/sm6150-common"
   }
 ]
