@@ -20,6 +20,9 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 function blob_fixup() {
     case "${1}" in
+    vendor/lib64/hw/camera.qcom.so)
+            sed -i "s|libc++.so|libc29.so|g" "${2}"
+            ;;
     vendor/etc/camera/camxoverridesettings.txt )
         sed -i "s|0x10080|0|g" "${2}"
         sed -i "s|0x1F|0x0|g" "${2}"
