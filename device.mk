@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml
 
 # Camera
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so
+PRODUCT_PACKAGES += \
+    libc29.vendor
 
 # Fstab
 PRODUCT_COPY_FILES += \
