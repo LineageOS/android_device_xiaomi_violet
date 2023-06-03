@@ -8,3 +8,14 @@ cc_prebuilt_library_shared {
         srcs: ["libc++.so"],
         check_elf_files: false,
 }
+
+// From prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so
+cc_prebuilt_library_shared {
+        name: "libhidlbase-v32",
+        vendor_available: true,
+        strip: {
+                none: true,
+        },
+        srcs: ["libhidlbase.so"],
+        check_elf_files: false,
+}
