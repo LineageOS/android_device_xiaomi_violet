@@ -24,6 +24,8 @@ TARGET_SCREEN_DENSITY := 440
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=emmc
+
 TARGET_KERNEL_CONFIG += vendor/violet.config
 
 # Partitions
