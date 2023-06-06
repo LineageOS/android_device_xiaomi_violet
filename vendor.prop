@@ -2,7 +2,3 @@
 ro.vendor.audio.sdk.fluencetype=fluence
 vendor.audio.feature.compr_voip.enable=true
 vendor.voice.path.for.pcm.voip=true
-
-# Crypto
-ro.crypto.allow_encrypt_override=true
-ro.crypto.volume.filenames_mode=aes-256-cts
