@@ -1,5 +1,8 @@
 # These proprietary files are extracted from Redmi Note 7 Pro (codenamed `violet`) MIUI V12.5.4.0.QFHCNXM, unless pinned
 
+# Current blobs with ELF checks disabled:
+# libsns_fastRPC_util, libssc_default_listener, libVDSuperPhotoAPI depend on libsdsprpc and build is unable to resolve its symbols
+
 # ACDB
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb
@@ -222,7 +225,7 @@ vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/com.qti.chi.override_moorea.so
 vendor/lib64/libFaceGrade.so
 vendor/lib64/libSNPE.so
-vendor/lib64/libVDSuperPhotoAPI.so
+vendor/lib64/libVDSuperPhotoAPI.so;DISABLE_CHECKELF
 vendor/lib64/libXMFD_AgeGender.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_dualcam_refocus.so
@@ -296,8 +299,8 @@ vendor/lib64/android.hardware.sensors@2.0-impl.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/libsns_fastRPC_util.so;DISABLE_CHECKELF
+vendor/lib64/libsns_low_lat_stream_stub.so;DISABLE_CHECKELF
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
