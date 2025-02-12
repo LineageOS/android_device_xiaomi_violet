@@ -264,7 +264,7 @@ vendor/lib64/liboemcrypto.so|2cee717b25559030a61709e826b4a5dae6043c20
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.default.so
-vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
