@@ -291,6 +291,13 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
+# RIL - from common device tree (Redmi Note 12 Pro 4G OS1.0.10.0.THGMIXM)
+vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
+vendor/lib64/deviceInfoServiceModule.so|d9c829e17f043facc78d142c20a644a37261f777
+
+# RIL - from Redmi Note 10 V14.0.2.0.SKGMIXM
+vendor/lib64/libril-qc-hal-qmi.so|31380a6e821c840a385be40b6029f290030b2c13
+
 # Sensors
 vendor/bin/hw/android.hardware.sensors@2.0-service
 vendor/bin/sensors.qti
