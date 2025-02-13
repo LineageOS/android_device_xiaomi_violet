@@ -2,6 +2,7 @@
 
 # Current blobs with ELF checks disabled:
 # libsns_fastRPC_util, libssc_default_listener, libVDSuperPhotoAPI depend on libsdsprpc and build is unable to resolve its symbols
+# libvidhance have unresolved symbol: __cxa_demangle
 
 # ACDB
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
@@ -250,7 +251,7 @@ vendor/lib64/libmpbase.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsymphonypower.so
-vendor/lib64/libvidhance.so
+vendor/lib64/libvidhance.so;DISABLE_CHECKELF
 vendor/lib64/mibokeh_660_opencl.bin
 
 # Camera Firmware
