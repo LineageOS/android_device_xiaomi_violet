@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "HapticOverlay_Settings",
+    theme: "HapticOverlay_Settings",
+    sdk_version: "current",
+    vendor: true
+}
