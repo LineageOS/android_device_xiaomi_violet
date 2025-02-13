@@ -5,3 +5,6 @@ vendor.voice.path.for.pcm.voip=true
 
 # Fingerprint
 persist.vendor.fingerprint.type=rear
+
+# USB
+ro.usb.uvc.enabled=true
