@@ -47,3 +47,8 @@ on post-fs-data && property:ro.build.type=userdebug
     #sensors log dir
     mkdir /data/vendor/sensors 0777 system system
     mkdir /data/vendor/sensors/scripts 0777 system system
+
+# Vibrator
+on early-boot
+    chown system system /sys/class/leds/vibrator/vmax_mv
+    chmod 0600 /sys/class/leds/vibrator/vmax_mv

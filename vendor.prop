@@ -8,3 +8,9 @@ persist.vendor.fingerprint.type=rear
 
 # USB
 ro.usb.uvc.enabled=true
+
+# Vibrator
+vendor.qcom.vibrator.led.enable_effects=true
+vendor.qcom.vibrator.led.effect_ms_multiplier=10
+vendor.qcom.vibrator.led.mv_min=1504
+vendor.qcom.vibrator.led.mv_max=2000
