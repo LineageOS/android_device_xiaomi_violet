@@ -2,3 +2,6 @@
 ro.vendor.audio.sdk.fluencetype=fluence
 vendor.audio.feature.compr_voip.enable=true
 vendor.voice.path.for.pcm.voip=true
+
+# Fingerprint
+persist.vendor.fingerprint.type=rear
