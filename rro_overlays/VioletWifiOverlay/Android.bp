@@ -2,5 +2,5 @@ runtime_resource_overlay {
     name: "VioletWifiOverlay",
     theme: "VioletWifiOverlay",
     certificate: "platform",
-    product_specific: true
+    product_specific: true,
 }
