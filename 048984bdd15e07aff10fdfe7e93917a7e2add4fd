@@ -16,6 +16,24 @@
       "message": "https://review.lineageos.org/q/I46094bcbfaba252b5d98ea8211b927fdaa079e2d perhaps?",
       "revId": "048984bdd15e07aff10fdfe7e93917a7e2add4fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b35d32ff_05d70905",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-02-13T17:13:24Z",
+      "side": 1,
+      "message": "Nope, The hw/xiaomi one uses /dev/lirc0, this device uses /dev/spidev0.1",
+      "parentUuid": "f1f492e1_f6c4a135",
+      "revId": "048984bdd15e07aff10fdfe7e93917a7e2add4fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
