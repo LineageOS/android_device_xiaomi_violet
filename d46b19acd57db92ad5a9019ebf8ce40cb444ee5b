@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58931b2c_49aa34d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32442
+      },
+      "writtenOn": "2025-05-06T19:26:37Z",
+      "side": 1,
+      "message": "not sure if we still need vendor/lib64/hw/consumerir.default.so after this change",
+      "revId": "d46b19acd57db92ad5a9019ebf8ce40cb444ee5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
